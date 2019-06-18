@@ -16,4 +16,12 @@ The pseudo-code for the algorithm is the following:
 
 ![alt text](https://spinningup.openai.com/en/latest/_images/math/47a7bd5139a29bc2d2dc85cef12bba4b07b1e831.svg "Policy Gradient Algorithm")
 
-**Image taken from [OpenAI's Spinning Up](https://spinningup.openai.com)**
+*Image taken from [OpenAI's Spinning Up](https://spinningup.openai.com)*
+
+In this implementation of the algorithm, point 8 is skipped because we use the actual return of the episode (or the rewards to go) as our advantage function.
+
+## Other Resources
+For further study policy gradients, check out these links:
+- https://www.youtube.com/watch?v=XGmd3wcyDg8&list=PLkFD6_40KJIxJMR-j5A1mkxK26gh_qg37&index=21
+- https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html
+- https://www.youtube.com/watch?v=fdY7dt3ijgY
