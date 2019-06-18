@@ -1,7 +1,7 @@
 # VPG-PyTorch
 A minimalistic implementation of Vanilla Policy Gradient with PyTorch
 
-This is a simple implementation of the Vanilla Policy Gradient (VPG) approach for tackling the reinforcement learning problem. Policy Gradient methods are part of a broader class of methods called policy-based methods. These methods are currently used in many state-of-the-art algorithms as an alternative to value-based methods such as Q-learning.
+This repository is a simple implementation of the Vanilla Policy Gradient (VPG) approach for tackling the reinforcement learning problem. Policy Gradient methods are part of a broader class of methods called policy-based methods. These methods are currently used in many state-of-the-art algorithms as an alternative to value-based methods such as Q-learning.
 
 Policy-Based Methods provide some advantages from value-based methods such as:
 - simplicity: they directly optimize for the optimal policy rather than passing through a value or Q function.
