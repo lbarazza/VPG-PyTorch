@@ -13,5 +13,7 @@ In the Vanilla Policy Gradient algorithm the agent interacts with the environmen
 It then stores state, action and reward at every step. At the end of every episode it updated the weights (θ) of the policy by computing the gradient of J(θ) (expected return function) and using gradient ascent to find the maximum of the function.
 
 The pseudo-code for the algorithm is the following:
+
 ![alt text](https://spinningup.openai.com/en/latest/_images/math/47a7bd5139a29bc2d2dc85cef12bba4b07b1e831.svg "Policy Gradient Algorithm")
-(Image taken from [OpenAI's Spinning Up](https://spinningup.openai.com))
+
+**Image taken from [OpenAI's Spinning Up](https://spinningup.openai.com)**
